@@ -10,7 +10,7 @@ on:
 env:
   SOURCE     : "./"
   TARGET     : "~/docker_k8s"
-  DOCKER_TAG : "${{ secrets.DOCKERHUB_USERNAME }}/k8s:v4"
+  DOCKER_TAG : "${{ secrets.DOCKERHUB_USERNAME }}/k8s:v5"
 
 jobs:
   build_docker:
